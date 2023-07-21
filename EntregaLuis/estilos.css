@@ -1,0 +1,28 @@
+
+
+.text-bg-dark {
+  background-color: #343A40;
+}
+
+.text-white {
+  color: #fff;
+}
+
+header{
+  background: #489D4A ;
+  height: 58px;
+  width: 100%;
+  padding-top: 20px;
+  font-weight: bold;
+  padding-left: 19px;
+  color: white;
+  margin-bottom: 0;
+  line-height: 0.1;
+}
+
+
+.container-fluid{
+  background-color: green;
+  height: 10px;
+  
+}

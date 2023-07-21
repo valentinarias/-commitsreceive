@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Universidad</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        .bg {
+            background: url(soccer-8027168_1280.jpg);
+            background-position: center center;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        body {
+            background-color: #489D4A;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .bienvenido {
+            background: white;
+            background-size: cover;
+            border-radius: 10%;
+            width: 170px;
+            height: 0.1px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .header{
+            height: 1000px;
+            padding: 200px;
+            padding-top: 500px;
+            padding-bottom: 500px;
+        
+        }
+
+
+        @media (max-width: 768px) {
+            .bg {
+          
+                margin: 0 auto;
+                max-height: 20rem;
+               
+            }
+        }
+
+        a {
+            color: white; /* Color del texto del enlace */
+            text-decoration: none;  /* Subrayado en el texto del enlace */
+        }
+
+
+    </style>
+</head>
+
+
+
+
+
+<header>
+    <div>
+        <p class="fs-4 title">|Football</p>
+        <p class="fs-4 title">|Party</p>
+    </div>
+</header>
+
+<!--Estructura -->
+<div class="container-fluid  py-1"></div>
+<div class="row">
+    <div class="col bg"></div>
+
+    <div class="col-md-4">
+        <div class="text-end"></div>
+
+        <h2 class="fw-bold text-center pt-5 mb-5 py-5 bienvenido">Bienvenido</h2>
+        <!--login-->
+        <form action="#">
+            <div class="container">
+                <div class="mb-4">
+                    <label for="email" class="form-label">Correo electrónico:</label>
+                    <input type="email" class="form-control" name="email">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">password:</label>
+                    <input type="password" class="form-control" name="email">
+                </div>
+
+
+                <div class="d-grid">
+                    <button  type="submit" class="btn btn-primary"><a href="indexChat.html">Iniciar sesion</button>
+                    </a>
+                </div>
+
+                <div class="my-3">
+                    <span>No tienes cuenta? <a href="#">Registrate</a></span>
+                    <br>
+
+                </div>
+            </div>
+        </form>
+
+
+        <div class="container"></div>
+        <div class="row">
+            <div class="col">
+                <a href="https://www.facebook.com/privacy/consent/gdp/?params%5Bapp_id%5D=313137469260&params%5Bauth_type%5D=%22rerequest%22&params%5Berror_unsupported_step%5D=false&params%5Bkid_directed_site%5D=false&params%5Blogger_id%5D=%22024bc3b4-ead1-49fa-98df-8f8bfecd2544%22&params%5Bnext%5D=%22read%22&params%5Bredirect_uri%5D=%22https%3A%5C%2F%5C%2Fwww.udemy.com%5C%2Fjoin%5C%2Fsocial-complete%5C%2Ffacebook%5C%2F%22&params%5Breturn_scopes%5D=true&params%5Bscope%5D=%5B%22email%22%2C%22public_profile%22%5D&params%5Bstate%5D=%22scsgMsHlZiJFKDjpcf9aNJ27zTeO4dpW%22&params%5Bsteps%5D=%7B%22read%22%3A%5B%22email%22%2C%22public_profile%22%2C%22baseline%22%5D%7D&params%5Btp%5D=%22unspecified%22&params%5Bcui_gk%5D=%22login_platformization_read%22&source=gdp_delegated">
+                    <button class="btn btn-outline-primary w-100 my-1 custom-btn">
+                        Facebook
+                    </button>
+                </a>
+            </div>
+        </div>
+        
+            <div class="row"></div>
+            <div class="col">
+                <button class="btn btn-outline-danger w-100 my-1 custom-btn">
+                    google
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
